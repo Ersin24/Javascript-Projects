@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 1em 0;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+h1,
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.outside-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-container{
+    margin: 2em 0;
+    width: 50%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    font-size: 1em;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#about-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+main{
+    margin-top: 5em;
+}
+
+section{
+    margin: 2em 0;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+
+/* Image */
+figure img{
+    width: 100%;
+    max-width: 60em;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.ul-js li{
+    margin: 1em 0;
+}
+
+.ul-js li:hover{
+    cursor: pointer;
+}
+
+#firstSkill,
+#secondSkill,
+#thirdSkill{
+    display: none;
+}
+
+.container i{
+    margin: 0 10px;
+    font-size: 2em;
+}
+
+
+footer{
+   margin-top: 5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer p i{
+    color: red;
+}
+
+@media (max-width: 1600px)  {
+    #about-me{
+        flex-wrap: wrap;
+    }
+
+    header ul{
+        display: none;
+    }
+    .inside-container{
+        width: 80%;
+    }
+    footer{
+        margin-top: 1em;
+    }
+}
