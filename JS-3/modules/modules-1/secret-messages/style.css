@@ -1,0 +1,18 @@
+#main-div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#main-sub-div{
+    margin-top: 10em;
+    width: 55em;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
