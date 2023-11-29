@@ -14,7 +14,7 @@ const colorChange = (hiddenElement) => {
     const g = Math.floor(Math.random() * 255);
     const b = Math.floor(Math.random() * 255);
 
-    buttonElement.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+    hiddenElement.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 }
 
 //1. Yöntem
