@@ -1,0 +1,11 @@
+ALTER TABLE speakers
+ALTER COLUMN name SET NOT NULL;
+
+UPDATE speakers
+SET organization  = 'Burası Boştu'
+WHERE organization  IS NULL;
+
+ALTER TABLE speakers
+ALTER organization SET NOT NULL;
+
+SELECT * FROM speakers

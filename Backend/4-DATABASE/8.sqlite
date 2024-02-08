@@ -1,0 +1,15 @@
+CREATE TABLE artists (
+     id integer primary key,
+     name varchar
+);
+
+CREATE TABLE songs (
+     id varchar primary key,
+     artist_id integer,
+     title varchar,
+     album_id integer,
+     duration interval
+);
+
+ALTER TABLE songs
+ADD FOREIGN KEY (artist_id) REFERENCES artists (id)
